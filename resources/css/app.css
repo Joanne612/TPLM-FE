@@ -10,3 +10,35 @@
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+/* resources/css/app.css */
+
+.brand-logo {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    background: linear-gradient(to right, #0047AB, #001D45);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-item {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    color: #464646;
+}
+
+.nav-item:hover {
+    color: #2563EB; /* warna blue-600 */
+}
+
+.btn-admin {
+    @apply border border-gray-400 text-gray-700 px-4 py-1 rounded-md text-sm transition-colors;
+}
+
+.btn-admin:hover {
+    @apply bg-gray-100;
+}
+
+.hero-image {
+    @apply w-full;
+}
+
